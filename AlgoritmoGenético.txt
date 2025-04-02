@@ -1,0 +1,52 @@
+Algoritmos genéticos -> Técnica de otimização, como processo natural de evolução 
+
+  PRINCÍPIOS 
+- reprodução
+- mutação
+- seleção
+
+  COMO FUNCIONAM ?
+Trabalham com uma população de soluções candidatas, evoluídas ao longo de várias gerações
+
+1. Representação dos Individuos (Cromossomos)
+  - a solução é representada por um cromossomo(cadeia de bits, números, caracteres)
+
+2. População Inicial
+  - população inicial é gerada aleatoriamente 
+
+3. Função de Aptidão 
+  - Cada cromossomo avaliado através de uma função aptidão, determina a qualidade da solução em relação ao problema
+
+4. Seleção
+  - Processo em que filtra os cromossomos que vão "reproduzir", para próxima geração 
+
+5. Cruzamento
+  - Processo onde dois cromossomos são combinados para gerar novo(s) cromossomo(s)
+
+6. Mutação 
+  - Processo que altera aleatoriamente um cromossomo
+
+7. Substituição
+- Após a seleção novos cromossomos gerados são inseridos de volta a população 
+
+8. Critério de Parada
+- processo continua até que seja atingido um critério de parada, como: um número fixo de gerações
+
+  Vantagens dos Algoritmos Genéticos
+Flexibilidade: Podem ser aplicados a uma ampla gama de problemas de otimização, incluindo aqueles com grande espaço de busca ou soluções não lineares.
+
+Busca global: Como eles exploram várias soluções simultaneamente e usam operadores estocásticos (aleatórios), têm a capacidade de escapar de ótimos locais.
+
+Adaptabilidade: Adaptam-se ao ambiente e encontram soluções ótimas ao longo do tempo.
+
+  Desvantagens
+Custo Computacional: Podem ser lentos para problemas com um grande número de variáveis, devido à necessidade de várias gerações e avaliações de aptidão.
+
+Resultado Subótimo: Não garantem a obtenção da solução ótima global, mas sim uma solução boa dentro dos parâmetros definidos.
+
+  Exemplos de Aplicações
+Problemas de otimização: Como encontrar o caminho mais curto, otimização de parâmetros em redes neurais, entre outros.
+
+Aprendizado de máquinas: Algoritmos genéticos podem ser usados para otimizar hiperparâmetros em modelos de aprendizado de máquina.
+
+Problemas de programação: Como o projeto de circuitos eletrônicos, planejamento de tarefas, entre outros.
